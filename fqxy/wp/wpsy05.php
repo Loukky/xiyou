@@ -87,7 +87,7 @@ include("./pz/ini_pz10.php");//调用ini缓存位置
 
 //银两加
 $yl1=20000000;
-$wwpsl=$yl1; 
+$wwpsl = $yl1 * $sl; 
 include("./pz/ini_pz03.php");
 $wpsy=2;
 
@@ -184,7 +184,7 @@ include("./pz/ini_pz12.php");//调用ini缓存位置
 } elseif($npcc ==487){//〖大号财宝箱〗
 //银两加
 $yl1=200000000;
-$wwpsl=$yl1; 
+$wwpsl = $yl1 * $sl; 
 include("./pz/ini_pz03.php");
 $wpsy=2;
 
