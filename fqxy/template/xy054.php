@@ -75,7 +75,7 @@ $cdid[]=$cmid;
 $clj[]=55;
 $npc[]=566;
 echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖冠军宝石包〗（1个）</font></a>";
-echo "<font color=black>(30豆)</font></a>";
+echo "<font color=black>(5豆)</font></a>";
 echo "<br>";
 
 //cmd及超链接值
@@ -95,6 +95,25 @@ $clj[]=55;
 $npc[]=744;
 echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>【金秋的思念】</font></a>";
 echo "<font color=black>(20豆)</font></a>";
+echo "<br>";
+
+//cmd及超链接值
+$cmid=$cmid+1;
+$cdid[]=$cmid;
+$clj[]=55;
+$npc[]=318;
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖钻星升星符〗</font></a>";
+echo "<font color=black>(60豆)</font></a>";
+echo "<font color=black>|</font></a>";
+
+
+//cmd及超链接值
+$cmid=$cmid+1;
+$cdid[]=$cmid;
+$clj[]=55;
+$npc[]=319;
+echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>〖陨星升星符〗</font></a>";
+echo "<font color=black>(200豆)</font></a>";
 echo "<br>";
 
 echo "<br>";
