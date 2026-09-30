@@ -389,7 +389,7 @@ echo "<br>";
 
 
 echo "<br>";
-/*
+
 
 //cmd及超链接值
 $cmid=$cmid+1;
@@ -398,7 +398,7 @@ $clj[]=54;
 $npc[]=0;
 echo "<a href='xy.php?uid=$wjid&&cmd=$cmid&&sid=$a1'><font color=blue>下一页</font></a>"."<br>";
 
-*/
+
 
 
 
